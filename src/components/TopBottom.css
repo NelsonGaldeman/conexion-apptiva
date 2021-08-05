@@ -24,3 +24,15 @@
 .Image-banner {
     padding-top: 1.2rem;
 }
+
+.logo-size-mobile {
+    width: 60% !important;
+}
+
+.content-size-mobile {
+    width: 70% !important;
+}
+
+.header-content-size-mobile {
+    width: 60% !important;
+}

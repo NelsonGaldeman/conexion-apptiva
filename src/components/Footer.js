@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../images/logos/bottom.png';
 import './Colors.css';
+import './TopBottom.css';
 
 class Footer extends React.Component {
     render() {
@@ -8,7 +9,7 @@ class Footer extends React.Component {
             <div>
                 <figure className="image is-centered is-vcentered">
                     <img src={logo} className="is-hidden-mobile" alt="Conexión Apptivalo Logo"/>
-                    <img src={logo} className="is-hidden-tablet mt-2" style={{width:"60%"}} alt="Conexión Apptivalo Logo"/>
+                    <img src={logo} className="is-hidden-tablet mt-2 logo-size-mobile" alt="Conexión Apptivalo Logo"/>
                 </figure>
                 <div className="mt-2">
                     <div className="is-hidden-mobile">
@@ -18,7 +19,7 @@ class Footer extends React.Component {
                             <p className="has-text-primary has-text-weight-bold is-size-4">www.apptivalo.com</p>
                         </a>
                     </div>
-                    <div className="is-hidden-tablet" style={{width:"70%"}}>
+                    <div className="is-hidden-tablet content-size-mobile">
                         <p className="is-black is-size-7">Primer canal de postventa multimarca que aporta valor a empresas y usuarios</p>
                         <p className="has-text-weight-bold is-size-7 mt-3">Concenos</p>
                         <a href="https://apptivalo.com" target="_blank" rel="noreferrer">
