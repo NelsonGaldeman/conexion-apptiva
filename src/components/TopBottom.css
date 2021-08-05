@@ -1,0 +1,26 @@
+.TopBottom-content {
+    position: absolute;
+    width: 100%;
+}
+
+.Background-container {
+    position: relative;
+}
+
+.Background {
+    position: absolute;
+}
+
+.spacer {
+    height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .Image-banner {
+        padding-top: 2rem !important;
+    }
+}
+
+.Image-banner {
+    padding-top: 1.2rem;
+}

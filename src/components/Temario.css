@@ -1,0 +1,13 @@
+.Temario {
+    background-image: url('../images/background/topics.png');
+    background-size: cover;
+}
+
+.Temario-container {
+    width: 85%;
+    margin: auto;
+}
+
+.is-black {
+    color: black !important;
+}

@@ -1,0 +1,12 @@
+.Tema {
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.Tema-content {
+    width: 90%;
+    margin: auto;
+}
