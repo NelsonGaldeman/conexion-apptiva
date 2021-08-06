@@ -54,7 +54,7 @@ const speakers = [
   },
   {
     name: "Julián Villanueva",
-    position: "Ex CMO Whirlpool MKT y RRII Apptivalo",
+    position: "Ex CMO Whirlpool y RRII Apptivalo",
     avatar: julian,
   }, 
   {
