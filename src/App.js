@@ -24,7 +24,7 @@ import ximena from './images/speakers/ximena.png';
 const speakers = [
   {
     name: "Agustín Roberi",
-    position: "Managing Director de ALADIO",
+    position: "Managing Director de ALLADIO",
     avatar: agustin,
   }, 
   {
@@ -69,7 +69,7 @@ function App() {
     <div className="App main">
       <TopBottom background={headerBackground} content={<Header />} />
       <Banner color="is-black" desktop="is-size-3" mobile="is-size-5" text="Un evento que explora el vínculo de las personas con los productos de su hogar"/>
-      <Banner color="is-primary" classes="is-size-1 has-text-weight-bold" text="DISERTANTES"/>
+      <Banner color="is-primary" classes="is-size-1 has-text-weight-bold" text="ORADORES"/>
       <SpeakersList speakers={speakers}/>
       <Banner color="is-black" classes="is-size-1 has-text-weight-bold" text="TEMARIO"/>
       <Temario />

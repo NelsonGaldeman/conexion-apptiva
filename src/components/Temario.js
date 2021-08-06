@@ -7,8 +7,8 @@ class Temario extends React.Component {
         return (
             <section className="Temario pb-6">
                 <div className="Temario-container">
-                    <p className="mb-5 pt-5 is-size-3 has-text-weight-bold is-black is-hidden-mobile">Una oportunidad para descubrir las estrategias que permitirán a las marcas conectarse y escuchar activamente a sus clientes y evaluar la evolución y estrategias del mercado argentino en pandemia</p>
-                    <p className="mb-5 pt-5 is-size-6 has-text-weight-bold is-black is-hidden-tablet">Una oportunidad para descubrir las estrategias que permitirán a las marcas conectarse y escuchar activamente a sus clientes y evaluar la evolución y estrategias del mercado argentino en pandemia</p>
+                    <p className="mb-5 pt-5 is-size-3 has-text-weight-bold is-black is-hidden-mobile">Una oportunidad para descubrir las estrategias que permitirán a las marcas conectarse y escuchar activamente a sus clientes y evaluar la evolución del mercado argentino en pandemia y después de ella</p>
+                    <p className="mb-5 pt-5 is-size-6 has-text-weight-bold is-black is-hidden-tablet">Una oportunidad para descubrir las estrategias que permitirán a las marcas conectarse y escuchar activamente a sus clientes y evaluar la evolución del mercado argentino en pandemia y después de ella</p>
                     <div className="columns is-centered is-vcentered">
                         <Tema 
                             color="#FF0018" 
@@ -18,7 +18,7 @@ class Temario extends React.Component {
                         <Tema 
                             color="#008018"
                             title="Desafíos y estrategias del sector durante y post pandemia" 
-                            speakers="Pablo Feresini - Seõrial , Agustín Roberi - Aladio"/>
+                            speakers="Pablo Feresini - Seõrial , Agustín Roberi - Alladio"/>
                     </div>
 
                     <div className="columns is-centered is-vcentered mt-3">
