@@ -1,6 +1,6 @@
-import './App.css';
+import './assets/css/App.css';
 import 'bulma/css/bulma.min.css';
-import './components/Colors.css';
+import './assets/css/Colors.css';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -10,16 +10,16 @@ import Temario from './components/Temario';
 import BannerRegister from './components/BannerRegister';
 import TopBottom from './components/TopBottom';
 
-import headerBackground from './images/background/top.jpg'
-import footerBackground from './images/background/bottom.jpg'
-import agustin from './images/speakers/agustin.png';
-import eduardo from './images/speakers/eduardo.png';
-import joan from './images/speakers/joan.png';
-import julian from './images/speakers/julian.png';
-import pablo from './images/speakers/pablo.png';
-import radagast from './images/speakers/radagast.png';
-import rodolfo from './images/speakers/rodolfo.png';
-import ximena from './images/speakers/ximena.png';
+import headerBackground from './assets/images/background/top.jpg'
+import footerBackground from './assets/images/background/bottom.jpg'
+import agustin from './assets/images/speakers/agustin.png';
+import eduardo from './assets/images/speakers/eduardo.png';
+import joan from './assets/images/speakers/joan.png';
+import julian from './assets/images/speakers/julian.png';
+import pablo from './assets/images/speakers/pablo.png';
+import radagast from './assets/images/speakers/radagast.png';
+import rodolfo from './assets/images/speakers/rodolfo.png';
+import ximena from './assets/images/speakers/ximena.png';
 
 const speakers = [
   {

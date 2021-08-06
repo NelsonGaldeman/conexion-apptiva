@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../images/logos/bottom.png';
-import './Colors.css';
-import './TopBottom.css';
+import logo from '../assets/images/logos/bottom.png';
+import '../assets/css/Colors.css';
+import '../assets/css/TopBottom.css';
 
 class Footer extends React.Component {
     render() {

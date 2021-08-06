@@ -1,6 +1,6 @@
-import React from 'react'
-import Tema from './Tema'
-import './Temario.css'
+import React from 'react';
+import Tema from './Tema';
+import '../assets/css/Temario.css';
 
 class Temario extends React.Component {
     render() {

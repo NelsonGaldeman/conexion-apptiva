@@ -1,5 +1,5 @@
 import React from 'react'
-import './Tema.css';
+import '../assets/css/Tema.css';
 
 class Tema extends React.Component {
 

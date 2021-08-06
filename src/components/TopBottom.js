@@ -1,5 +1,5 @@
 import React from 'react'
-import './TopBottom.css';
+import '../assets/css/TopBottom.css';
 
 class TopBottom extends React.Component {
 
