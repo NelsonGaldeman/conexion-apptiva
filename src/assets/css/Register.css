@@ -46,3 +46,21 @@
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
 
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+
+form {
+    background-color: #DDDEE3;
+}
+
+.form-container {
+    max-width: 450px;
+    margin: auto;
+}
+
+.is-fullheight {
+    height: 100%;
+}
+
+.grey-background {
+    background-color: #DDDEE3;
+    height: 100%;
+}
