@@ -21,7 +21,7 @@ class Footer extends React.Component {
                     </div>
                     <div className="is-hidden-tablet content-size-mobile">
                         <p className="is-black is-size-7">Primer canal de postventa multimarca que aporta valor a empresas y usuarios</p>
-                        <p className="has-text-weight-bold is-size-7 mt-3">Concenos</p>
+                        <p className="has-text-weight-bold is-size-7 mt-3">Conocenos</p>
                         <a href="https://apptivalo.com" target="_blank" rel="noreferrer">
                             <p className="has-text-primary has-text-weight-bold is-size-7">www.apptivalo.com</p>
                         </a>
