@@ -5,10 +5,14 @@ class Banner extends React.Component {
         const { color, text, classes, mobile, desktop } = this.props;
         return (
             <section>
-                <div className={`hero ${color}`}>
+                <div className={`hero is-hidden-mobile ${color}`}>
                     <div className="hero-body">
-                        <p className={`is-hidden-tablet title ${classes} ${mobile}`}>{text}</p>
-                        <p className={`is-hidden-mobile title ${classes} ${desktop}`}>{text}</p>
+                        <p className={`mb-0 title ${classes} ${desktop}`}>{text}</p>
+                    </div>
+                </div>
+                <div className={`hero is-hidden-tablet is-small ${color}`}>
+                    <div className="hero-body">
+                        <p className={`mb-0 title ${classes} ${desktop}`}>{text}</p>
                     </div>
                 </div>
             </section>
