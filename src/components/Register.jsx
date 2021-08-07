@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/css/Register.css';
 
 class Register extends React.Component {
@@ -30,7 +31,12 @@ class Register extends React.Component {
                     </div>
                     <div style={{position: "absolute", left: "-5000px"}} aria-hidden="true"><input type="text" name="b_1a2ccc7db22d8e1819931040c_d6adb2414e" tabIndex="-1"
                      /></div>
-                    <div className="clear"><input type="submit" value="Registrarme" name="subscribe" id="mc-embedded-subscribe" className="button" /></div>
+                    <div className="clear">
+                        <input type="submit" value="Registrarme" name="subscribe" id="mc-embedded-subscribe" className="button" />
+                        <Link to="/">
+                            <input type="button" value="Volver" id="mc-embedded-subscribe" className="button" />
+                        </Link>
+                    </div>
                 </div>
             </form>
             </div>
