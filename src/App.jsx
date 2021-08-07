@@ -2,6 +2,7 @@ import './assets/css/App.css';
 import 'bulma/css/bulma.min.css';
 import './assets/css/Colors.css';
 
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Banner from './components/Banner';
@@ -9,6 +10,7 @@ import SpeakersList from './components/SpeakersList';
 import Temario from './components/Temario';
 import BannerRegister from './components/BannerRegister';
 import TopBottom from './components/TopBottom';
+import Register from './components/Register';
 
 import headerBackground from './assets/images/background/top.jpg'
 import footerBackground from './assets/images/background/bottom.jpg'
@@ -64,18 +66,28 @@ const speakers = [
   }
 ];
 
+
 function App() {
   return (
-    <div className="App main">
-      <TopBottom background={headerBackground} content={<Header />} />
-      <Banner color="is-black" desktop="is-size-3" mobile="is-size-5" text="Un evento que explora el vínculo de las personas con los productos de su hogar"/>
-      <Banner color="is-primary" classes="is-size-1 has-text-weight-bold" text="ORADORES"/>
-      <SpeakersList speakers={speakers}/>
-      <Banner color="is-black" classes="is-size-1 has-text-weight-bold" text="TEMARIO"/>
-      <Temario />
-      <BannerRegister color="is-primary" text="EVENTO ONLINE Y GRATUITO"/>
-      <TopBottom background={footerBackground} content={<Footer />} />
-    </div>
+    <Router>
+        <Switch>
+          <Route exact path="/">
+          <div className="App main">
+            <TopBottom background={headerBackground} content={<Header />} />
+            <Banner color="is-black" desktop="is-size-3" mobile="is-size-5" text="Un evento que explora el vínculo de las personas con los productos de su hogar"/>
+            <Banner color="is-primary" classes="is-size-1 has-text-weight-bold" text="ORADORES"/>
+            <SpeakersList speakers={speakers}/>
+            <Banner color="is-black" classes="is-size-1 has-text-weight-bold" text="TEMARIO"/>
+            <Temario />
+            <BannerRegister color="is-primary" text="EVENTO ONLINE Y GRATUITO"/>
+            <TopBottom background={footerBackground} content={<Footer />} />
+          </div>
+          </Route>
+          <Route path="/register">
+            <Register />
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 

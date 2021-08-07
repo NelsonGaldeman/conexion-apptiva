@@ -8,6 +8,10 @@ class TopBottom extends React.Component {
         this.state = {
             height: {height: "0px"},
             resizeListener: () => {
+                if (!document.getElementById('background-image')) {
+                    return;
+                }
+                
                 let elHeight = document.getElementById('background-image').clientHeight;
                 this.setState({height: {height: elHeight + "px"}});
             },
