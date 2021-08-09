@@ -25,6 +25,21 @@ import ximena from './assets/images/speakers/ximena.png';
 
 const speakers = [
   {
+    name: "Radagast",
+    position: "Influencer, Mago, Comediante y Carpintero",
+    avatar: radagast,
+  },
+  {
+    name: "Joan Cwaik",
+    position: "Tecnólogo, Inlfuencer, Escritor MKT LATAM Maytronics",
+    avatar: joan,
+  }, 
+  {
+    name: "Ximena Díaz",
+    position: "Consultora en Consumer Trends y Founder YOUNIVERSAL",
+    avatar: ximena,
+  },
+  {
     name: "Agustín Roberi",
     position: "Managing Director de ALLADIO",
     avatar: agustin,
@@ -35,28 +50,13 @@ const speakers = [
     avatar: pablo,
   },
   {
-    name: "Ximena Díaz",
-    position: "Consultora en Consumer Trends y Founder YOUNIVERSAL",
-    avatar: ximena,
-  },
-  {
     name: "Eduardo Echeverría",
     position: "Sr. Market Insights Project Manager GFK",
     avatar: eduardo,
   }, 
   {
-    name: "Joan Cwaik",
-    position: "Tecnólogo, Inlfuencer, Escritor MKT LATAM Maytronics",
-    avatar: joan,
-  }, 
-  {
-    name: "Radagast",
-    position: "Influencer, Mago, Comediante y Carpintero",
-    avatar: radagast,
-  },
-  {
     name: "Julián Villanueva",
-    position: "Ex CMO Whirlpool y RRII Apptivalo",
+    position: "Ex CMO Whirlpool<br>CMO & RRII Apptivalo",
     avatar: julian,
   }, 
   {

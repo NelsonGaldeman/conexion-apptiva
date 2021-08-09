@@ -12,7 +12,7 @@ class Banner extends React.Component {
                 </div>
                 <div className={`hero is-hidden-tablet is-small ${color}`}>
                     <div className="hero-body">
-                        <p className={`mb-0 title ${classes} ${desktop}`}>{text}</p>
+                        <p className={`mb-0 title ${classes} ${mobile}`}>{text}</p>
                     </div>
                 </div>
             </section>
