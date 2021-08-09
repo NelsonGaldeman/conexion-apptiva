@@ -36,3 +36,17 @@
 .header-content-size-mobile {
     width: 60% !important;
 }
+
+.socialNetwork {
+    margin-top: 2em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    width: 60px;
+}
+
+.socialNetworkMobile {
+    margin-top: 0.4em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    width: 20px;
+}
