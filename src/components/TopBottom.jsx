@@ -45,7 +45,7 @@ class TopBottom extends React.Component {
                                 <div className="spacer mt-6 is-hidden-mobile"></div>
                                 {this.props.content}
                             </div>
-                            <div className="column"></div>
+                            <div className="column is-hidden-mobile"></div>
                         </div>
                     </div>
                 </div>
