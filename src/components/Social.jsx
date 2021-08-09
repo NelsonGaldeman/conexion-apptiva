@@ -1,6 +1,6 @@
 import React from 'react'
 
-import twitter from '../assets/images/social/twitter.png';
+// import twitter from '../assets/images/social/twitter.png';
 import facebook from '../assets/images/social/facebook.png';
 import instagram from '../assets/images/social/instagram.png';
 import youtube from '../assets/images/social/youtube.png';
