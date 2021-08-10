@@ -11,6 +11,7 @@ import Temario from './components/Temario';
 import BannerRegister from './components/BannerRegister';
 import TopBottom from './components/TopBottom';
 import Register from './components/Register';
+import Analytics from './components/Analytics';
 
 import headerBackground from './assets/images/background/top.jpg'
 import footerBackground from './assets/images/background/bottom.jpg'
@@ -81,10 +82,12 @@ function App() {
             <Temario />
             <BannerRegister color="is-primary" text="EVENTO ONLINE Y GRATUITO"/>
             <TopBottom background={footerBackground} content={<Footer />} />
+            <Analytics />
           </div>
           </Route>
           <Route path="/register">
             <Register />
+            <Analytics />
           </Route>
         </Switch>
     </Router>
