@@ -23,6 +23,7 @@ import pablo from './assets/images/speakers/pablo.png';
 import radagast from './assets/images/speakers/radagast.png';
 import rodolfo from './assets/images/speakers/rodolfo.png';
 import ximena from './assets/images/speakers/ximena.png';
+import sergio from './assets/images/speakers/sergio.jpg';
 
 const speakers = [
   {
@@ -42,12 +43,12 @@ const speakers = [
   },
   {
     name: "Agustín Roberi",
-    position: "Managing Director de ALLADIO",
+    position: "Managing Director de ALLADIO - José M. Alladio e Hijos S.A.",
     avatar: agustin,
   }, 
   {
     name: "Pablo Feresini",
-    position: "CEO Rotoplas y Com. Dir. de CAFAGAS",
+    position: "CEO Rotoplas<br />Dir. de CAFAGAS",
     avatar: pablo,
   },
   {
@@ -57,13 +58,19 @@ const speakers = [
   }, 
   {
     name: "Julián Villanueva",
-    position: "Ex CMO Whirlpool<br>CMO & RRII Apptivalo",
+    position: "CMO & RRII Apptivalo<br />Ex CMO Whirlpool",
     avatar: julian,
   }, 
   {
     name: "Rodolfo Andragnes",
     position: "Tecnólogo, CEO Apptivalo",
     avatar: rodolfo,
+  }
+  , 
+  {
+    name: "Sergio Teubal",
+    position: "CEO Orishinal<br />Director de cine",
+    avatar: sergio,
   }
 ];
 

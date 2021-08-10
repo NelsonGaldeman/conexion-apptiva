@@ -7,42 +7,43 @@ class Temario extends React.Component {
         return (
             <section className="Temario pb-6">
                 <div className="Temario-container">
-                    <p className="mb-5 pt-5 is-size-3 has-text-weight-bold is-black is-hidden-mobile">Una oportunidad para descubrir las estrategias que permitirán a las marcas conectarse y escuchar activamente a sus clientes y evaluar la evolución del mercado argentino en pandemia y después de ella</p>
-                    <p className="mb-5 pt-5 is-size-6 has-text-weight-bold is-black is-hidden-tablet">Una oportunidad para descubrir las estrategias que permitirán a las marcas conectarse y escuchar activamente a sus clientes y evaluar la evolución del mercado argentino en pandemia y después de ella</p>
+                    <p className="mb-5 pt-5 is-size-3 has-text-weight-bold is-black is-hidden-mobile">Una mirada al consumidor argentino y a la industria de electrodomésticos durante la pandemia</p>
+                    <p className="mb-5 pt-5 is-size-6 has-text-weight-bold is-black is-hidden-tablet">Una mirada al consumidor argentino y a la industria de electrodomésticos durante la pandemia</p>
                     <div className="columns is-centered is-vcentered">
                         <Tema 
                             color="#FF0018" 
-                            title="El IOT y la Robótica al servicio del usuario" 
-                            speakers="Joan Cwaik - Maytronics"/>
+                            title="Nuevas tendencias entre los consumidores. El rol de la tecnología" 
+                            speakers="Ximena Diaz Alarcón - Youniversal"/>
+                            
 
                         <Tema 
                             color="#008018"
-                            title="Desafíos y estrategias del sector durante y post pandemia" 
-                            speakers="Pablo Feresini - Seõrial , Agustín Roberi - Alladio"/>
+                            title="Un hogar más conectado: El IOT y la Robótica al servicio del usuario" 
+                            speakers="Joan Cwaik - Maytronics"/>
                     </div>
 
                     <div className="columns is-centered is-vcentered mt-3">
                         <Tema 
                             color="#FFA52C" 
-                            title="Nuevas Tendencias entre los consumidores" 
-                            speakers="Ximena Diaz Alarcón - Youniversal"/>
+                            title="El rol de los influencers durante la pandemia y el disfrute del hogar" 
+                            speakers="Radagast - Joan Cwaik - Sergio Teubal"/>
 
                         <Tema 
                             color="#0000F9"
-                            title="Evolución del Mercado de Consumo del Hogar" 
-                            speakers="Eduardo Echeverria - GFK"/>
+                            title="Todos para uno, y una para todos" 
+                            speakers="Rodolfo Andragnes - Apptivalo"/>
                     </div>
 
                     <div className="columns is-centered is-vcentered mt-3">
                         <Tema 
                             color="#FFFF41" 
-                            title="Todos para uno y una para todos" 
-                            speakers="Rodolfo Andragnes - Apptivalo"/>
+                            title="Evolución del Mercado de Consumo de Hogar 21/22" 
+                            speakers="Eduardo Echeverria - GFK"/>
 
                         <Tema 
                             color="#86007D"
-                            title="El rol de los influencers durante la pandemia" 
-                            speakers="Radagast - Joan Cwaik - Rodolfo Andragnes"/>
+                            title="Desafiós y estrategias del mercado de productos para el hogar 20/21/22" 
+                            speakers="Pablo Feresini - Rotoplas , Agustín Roberi - Alladio José M. Alladio e Hijos S.A."/>
                     </div>
                 </div>
             </section>
