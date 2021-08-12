@@ -33,7 +33,7 @@ const speakers = [
   },
   {
     name: "Joan Cwaik",
-    position: "Tecnólogo, Inlfuencer, Escritor MKT LATAM Maytronics",
+    position: "Tecnólogo, Influencer, Escritor MKT LATAM Maytronics",
     avatar: joan,
   }, 
   {
