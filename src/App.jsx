@@ -26,11 +26,11 @@ import ximena from './assets/images/speakers/ximena.png';
 import sergio from './assets/images/speakers/sergio.jpg';
 
 const speakers = [
-  {
+  /*{
     name: "Radagast",
     position: "Influencer, Mago, Comediante y Carpintero",
     avatar: radagast,
-  },
+  },*/
   {
     name: "Joan Cwaik",
     position: "Tecnólogo, Influencer, Escritor MKT LATAM Maytronics",
