@@ -26,7 +26,7 @@ class Temario extends React.Component {
                         <Tema 
                             color="#FFA52C" 
                             title="El rol de los influencers durante la pandemia y el disfrute del hogar" 
-                            speakers="Radagast - Joan Cwaik - Sergio Teubal"/>
+                            speakers="Joan Cwaik - Sergio Teubal"/>
 
                         <Tema 
                             color="#0000F9"
