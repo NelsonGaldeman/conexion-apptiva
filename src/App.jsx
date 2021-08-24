@@ -24,6 +24,9 @@ import radagast from './assets/images/speakers/radagast.png';
 import rodolfo from './assets/images/speakers/rodolfo.png';
 import ximena from './assets/images/speakers/ximena.png';
 import sergio from './assets/images/speakers/sergio.jpg';
+import cecicarena from './assets/images/speakers/cecicarena.jpg';
+import itbabyeat from './assets/images/speakers/itbabyeat.jpg';
+import lacasaestaenordenok from './assets/images/speakers/lacasaestaenordenok.png';
 
 const speakers = [
   /*{
@@ -65,15 +68,28 @@ const speakers = [
     name: "Rodolfo Andragnes",
     position: "Tecnólogo, CEO Apptivalo",
     avatar: rodolfo,
-  }
-  , 
+  }, 
   {
     name: "Sergio Teubal",
     position: "CEO Orishinal<br />Director de cine",
     avatar: sergio,
+  }, 
+  {
+    name: "@Cecicarena",
+    position: "COMUNICADORA<br />Llama Violeta + Coaching",
+    avatar: cecicarena,
+  }, 
+  {
+    name: "Ximena Bruno",
+    position: "Owner de @ItBabyEat<br />Recetas sanas para bebes y familia",
+    avatar: itbabyeat,
+  }, 
+  {
+    name: "Candelaria Negri",
+    position: "Owner de @lacasaestaenordenok<br />Consultora certificada Marie Kondo",
+    avatar: lacasaestaenordenok,
   }
 ];
-
 
 function App() {
   return (

@@ -15,7 +15,6 @@ class Temario extends React.Component {
                             title="Nuevas tendencias entre los consumidores. El rol de la tecnología" 
                             speakers="Ximena Diaz Alarcón - Youniversal"/>
                             
-
                         <Tema 
                             color="#008018"
                             title="Un hogar más conectado: El IOT y la Robótica al servicio del usuario" 
@@ -26,7 +25,7 @@ class Temario extends React.Component {
                         <Tema 
                             color="#FFA52C" 
                             title="El rol de los influencers durante la pandemia y el disfrute del hogar" 
-                            speakers="Joan Cwaik - Sergio Teubal"/>
+                            speakers="Joan Cwaik - Sergio Teubal - @Cecicarena - @ItBabyEat - @lacasaestaenordenok"/>
 
                         <Tema 
                             color="#0000F9"
