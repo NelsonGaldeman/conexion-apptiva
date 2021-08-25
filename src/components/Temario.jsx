@@ -42,7 +42,7 @@ class Temario extends React.Component {
                         <Tema 
                             color="#86007D"
                             title="Desafiós y estrategias del mercado de productos para el hogar 20/21/22" 
-                            speakers="Pablo Feresini - Rotoplas , Agustín Roberi - Alladio José M. Alladio e Hijos S.A."/>
+                            speakers="Pablo Feresini - Rotoplas, Agustín Roberi - Alladio José M. Alladio e Hijos S.A., Agustín Jorge - Essen Aluminio S.A."/>
                     </div>
                 </div>
             </section>

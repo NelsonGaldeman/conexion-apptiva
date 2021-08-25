@@ -27,6 +27,7 @@ import sergio from './assets/images/speakers/sergio.jpg';
 import cecicarena from './assets/images/speakers/cecicarena.jpg';
 import itbabyeat from './assets/images/speakers/itbabyeat.jpg';
 import lacasaestaenordenok from './assets/images/speakers/lacasaestaenordenok.png';
+import agustinjorge from './assets/images/speakers/agustinjorge.jpg';
 
 const speakers = [
   /*{
@@ -88,6 +89,11 @@ const speakers = [
     name: "Candelaria Negri",
     position: "Owner de @lacasaestaenordenok<br />Consultora certificada Marie Kondo",
     avatar: lacasaestaenordenok,
+  }, 
+  {
+    name: "Agustín Jorge",
+    position: "Gerente General Essen Aluminio S.A.",
+    avatar: agustinjorge,
   }
 ];
 
