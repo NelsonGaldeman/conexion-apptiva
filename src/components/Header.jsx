@@ -12,7 +12,7 @@ class Header extends React.Component {
                 <img src={logo} className="is-hidden-mobile" alt="Conexión Apptivalo Logo"/>
                     <img src={logo} className="is-hidden-tablet mt-2 logo-size-mobile" alt="Conexión Apptivalo Logo"/>
                 </figure>
-                <a href="http://livedirecto.events/apptivalo/grupo.php?id=20" target="_blank" rel="noreferrer">
+                <a href="https://livedirecto.events/apptivalo/grupo.php?id=20" target="_blank" rel="noreferrer">
                     <div className="is-hidden-mobile">
                         <p className="is-black is-size-4 is-inline">26 de Agosto </p>
                         <p className="has-text-primary is-inline">~</p>
