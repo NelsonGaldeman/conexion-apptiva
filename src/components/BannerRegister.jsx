@@ -10,14 +10,14 @@ class BannerRegister extends React.Component {
                     <div className="hero-body">
                         <p className="title has-text-weight-bold is-size-1 has-text-black is-hidden-mobile">{text}</p>
                         <p className="title has-text-weight-bold is-size-4 has-text-black is-hidden-tablet">{text}</p>
-                        <Link to="/register">
+                        <a href="http://livedirecto.events/apptivalo/grupo.php?id=20" target="_blank" rel="noreferrer">
                             <button className="button is-black is-size-1 is-hidden-mobile">
-                                <p className="has-text-white has-text-weight-bold">¡ REGISTRATE YA !</p>
+                                <p className="has-text-white has-text-weight-bold">¡ ACCEDE AL EVENTO !</p>
                             </button>
                             <button className="button is-black is-size-4 is-hidden-tablet">
-                                <p className="has-text-white has-text-weight-bold">¡ REGISTRATE YA !</p>
+                                <p className="has-text-white has-text-weight-bold">¡ ACCEDE AL EVENTO !</p>
                             </button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>
